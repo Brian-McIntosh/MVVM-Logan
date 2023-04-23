@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		25BB2DDF29F4887E0021EB42 /* MVVM_LoganApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2DDE29F4887E0021EB42 /* MVVM_LoganApp.swift */; };
-		25BB2DE129F4887E0021EB42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2DE029F4887E0021EB42 /* ContentView.swift */; };
 		25BB2DE329F488800021EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2DE229F488800021EB42 /* Assets.xcassets */; };
 		25BB2DE629F488800021EB42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2DE529F488800021EB42 /* Preview Assets.xcassets */; };
+		25BB2DED29F489090021EB42 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2DEC29F489090021EB42 /* PeopleView.swift */; };
+		25BB2DEF29F4895A0021EB42 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2DEE29F4895A0021EB42 /* Person.swift */; };
+		25BB2DF129F48A0D0021EB42 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2DF029F48A0D0021EB42 /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25BB2DDB29F4887E0021EB42 /* MVVM-Logan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Logan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BB2DDE29F4887E0021EB42 /* MVVM_LoganApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_LoganApp.swift; sourceTree = "<group>"; };
-		25BB2DE029F4887E0021EB42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25BB2DE229F488800021EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25BB2DE529F488800021EB42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25BB2DEC29F489090021EB42 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		25BB2DEE29F4895A0021EB42 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		25BB2DF029F48A0D0021EB42 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				25BB2DDE29F4887E0021EB42 /* MVVM_LoganApp.swift */,
-				25BB2DE029F4887E0021EB42 /* ContentView.swift */,
+				25BB2DEC29F489090021EB42 /* PeopleView.swift */,
+				25BB2DF029F48A0D0021EB42 /* PersonViewModel.swift */,
+				25BB2DEE29F4895A0021EB42 /* Person.swift */,
 				25BB2DE229F488800021EB42 /* Assets.xcassets */,
 				25BB2DE429F488800021EB42 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BB2DE129F4887E0021EB42 /* ContentView.swift in Sources */,
+				25BB2DEF29F4895A0021EB42 /* Person.swift in Sources */,
+				25BB2DED29F489090021EB42 /* PeopleView.swift in Sources */,
 				25BB2DDF29F4887E0021EB42 /* MVVM_LoganApp.swift in Sources */,
+				25BB2DF129F48A0D0021EB42 /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
